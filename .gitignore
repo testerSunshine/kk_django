@@ -1,0 +1,12 @@
+###############
+#     file    #
+###############
+.DS_Store
+
+*.png
+*.pyc
+*.log
+*.xml
+*.html
+/.idea/
+test*.py
