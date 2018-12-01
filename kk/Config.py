@@ -26,7 +26,7 @@ def get_yaml_local():
     if platform.system() == "Windows":
         path = os.path.join('d:\config_aotu_ui.yaml')
     else:
-        path = os.path.join('/usr/local/aotuConfig/config_video.yaml')
+        path = os.path.join('/usr/local/autoConfig/config_video.yaml')
     f = open(path)
     s = yaml.load(f)
     f.close()
